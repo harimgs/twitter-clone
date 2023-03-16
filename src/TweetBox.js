@@ -12,8 +12,8 @@ function TweetBox() {
     e.preventDefault();
 
     addDoc(collection(db, "posts"), {
-      displayName: "rafeh Qazi",
-      username: "cleverqazi",
+      displayName: "Harim",
+      username: "harim",
       verified: true,
       text: tweetMessage,
       image: tweetImage,
